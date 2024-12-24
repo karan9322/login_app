@@ -8,7 +8,11 @@ require("dotenv").config();
 require("./models/db");
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: 'https://login-app-ui-wine.vercel.app', 
+  methods: ['GET', 'POST', 'PUT', 'DELETE'], 
+  credentials: true, 
+}));
 
 const PORT = process.env.PORT || 5500;
 
