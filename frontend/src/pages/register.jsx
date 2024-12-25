@@ -20,7 +20,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      const url = "https://login-app-api-gilt.vercel.app/auth/register";
+      const url = "https://login-app-api-2.vercel.app/auth/register";
       const response = await fetch(url, {
         method: "POST",
         headers: {
