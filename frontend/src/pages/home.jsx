@@ -23,7 +23,7 @@ function Home() {
 
   const fetchProducts = async () => {
     try {
-      const url = "https://login-app-api-gilt.vercel.app/auth/product";
+      const url = "https://login-app-api-2.vercel.app//auth/product";
       const header = {
         headers: {
           authorization: localStorage.getItem("token"),
