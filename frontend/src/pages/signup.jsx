@@ -21,7 +21,7 @@ function Signup() {
     try {
       console.log("Submitting login info:", loginInfo);
 
-      const response = await fetch("https://login-app-api-gilt.vercel.app/auth/signup", {
+      const response = await fetch("https://login-app-api-2.vercel.app/auth/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
