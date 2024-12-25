@@ -10,7 +10,7 @@ require("./models/db");
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://login-app-ui-wine.vercel.app",
+    origin: true, 
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
